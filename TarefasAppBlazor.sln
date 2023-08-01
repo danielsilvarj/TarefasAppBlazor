@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TarefasAppBlazor.UI", "TarefasAppBlazor.UI\TarefasAppBlazor.UI.csproj", "{87CF162D-A660-4C72-B23B-ACDCF63CC44B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - UI", "1 - UI", "{3E57FD7C-21F4-467E-8479-F5AB1CB5C108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Integration", "2 - Integration", "{29E8B225-DFF4-4EAE-A9C2-BA25C92CE677}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TarefasAppBlazor.Services", "TarefasAppBlazor.Services\TarefasAppBlazor.Services.csproj", "{3204F038-2773-498A-BA7F-8172704EC34C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87CF162D-A660-4C72-B23B-ACDCF63CC44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CF162D-A660-4C72-B23B-ACDCF63CC44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CF162D-A660-4C72-B23B-ACDCF63CC44B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{87CF162D-A660-4C72-B23B-ACDCF63CC44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CF162D-A660-4C72-B23B-ACDCF63CC44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CF162D-A660-4C72-B23B-ACDCF63CC44B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3204F038-2773-498A-BA7F-8172704EC34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3204F038-2773-498A-BA7F-8172704EC34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3204F038-2773-498A-BA7F-8172704EC34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3204F038-2773-498A-BA7F-8172704EC34C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87CF162D-A660-4C72-B23B-ACDCF63CC44B} = {3E57FD7C-21F4-467E-8479-F5AB1CB5C108}
+		{3204F038-2773-498A-BA7F-8172704EC34C} = {29E8B225-DFF4-4EAE-A9C2-BA25C92CE677}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		        SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+		SolutionGuid = {8D76EFEE-7233-430A-A362-4088BED934BB}
+	EndGlobalSection
+EndGlobal
